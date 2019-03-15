@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [Header("Designer-set parameters:")]
     private float increaseForceMultiplier;
     private float reduceForceMultiplier;
+    [Range(0.0f, 100.0f)] public float maximumPull;
 
     public PlayerData[] playerData = new PlayerData[3];
 
@@ -65,6 +66,6 @@ public class PlayerController : MonoBehaviour
             Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
 
         launchComponent.DragToLaunch(mousePosition, increaseForceMultiplier, reduceForceMultiplier, 
-            lineRendererComponent, rigidbody2DComponent);
+            lineRendererComponent, rigidbody2DComponent, maximumPull);
     }
 }

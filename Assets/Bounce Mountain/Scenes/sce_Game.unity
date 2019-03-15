@@ -2090,6 +2090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65aece45683e2f84c86beb8213aae8bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumPull: 5
   playerData:
   - {fileID: 11400000, guid: 4b25258a1ca142d4ea2c25c43e635e91, type: 2}
   - {fileID: 11400000, guid: 2c1aaec8c72f258449282b56fdf08b00, type: 2}
@@ -6088,11 +6089,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4556353528846101714, guid: e3773e67387092f4583658d79e623962,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 4556353528846101724, guid: e3773e67387092f4583658d79e623962,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6147,6 +6143,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556353528846101714, guid: e3773e67387092f4583658d79e623962,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556353528846101715, guid: e3773e67387092f4583658d79e623962,
+        type: 3}
+      propertyPath: maximumPull
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3773e67387092f4583658d79e623962, type: 3}
