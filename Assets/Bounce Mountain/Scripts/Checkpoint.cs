@@ -24,7 +24,7 @@ public class Checkpoint : MonoBehaviour
             {
                 checkpointReachedTime = timeFromStart - trigger.GetComponent<PlayerController>().lastCheckpointTime;
 
-                checkpointTimeText.text = "Checkpoint " + checkpointNumber + ": " + checkpointReachedTime;
+                if (checkpointTimeText != null) checkpointTimeText.text = "Checkpoint " + checkpointNumber + ": " + checkpointReachedTime;
                 trigger.GetComponent<PlayerController>().lastCheckpointTime += checkpointReachedTime;
                 trigger.GetComponent<PlayerController>().currentCheckPoint = checkpointNumber;
                 gameObject.GetComponent<SpriteRenderer>().color = Color.green;

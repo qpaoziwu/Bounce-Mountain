@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 605ef714d2567734ba98f3f683bc167c, type: 3}
-  m_Name: dat_01SlowBall
+  m_Name: dat_03_Experimental
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBallData
-  increaseForceMultiplier: 1
-  reduceForceMultiplier: 0.01
+  increaseForceMultiplier: 3.4
+  reduceForceMultiplier: 0.1
   objectPhysicsMaterial: {fileID: 6200000, guid: 06ff357e55f4c1a4e8d67edafad559cb,
     type: 2}
-  objectColour: {r: 1, g: 0, b: 0, a: 1}
+  objectColour: {r: 1, g: 0.78153276, b: 0, a: 1}
