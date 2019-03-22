@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3765877857505731229}
   m_Layer: 0
   m_Name: pre_Checkpoint_Circular
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,5 +109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99e5de79860f27547a98b0251b75beef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: OnHitEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   checkpointNumber: 1
   checkpointTimeText: {fileID: 0}
