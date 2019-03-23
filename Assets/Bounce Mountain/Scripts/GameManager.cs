@@ -36,4 +36,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("sce_Level_1", LoadSceneMode.Single);
     }
+
+    public void OnQuitButtonPressed()
+    {
+        Application.Quit();
+    }
 }
