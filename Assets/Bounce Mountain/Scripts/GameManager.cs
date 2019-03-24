@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     private int checkpointsRemaining;
     private Scene currentScene;
 
+    public static bool gameIsPaused = false;
+    public GameObject pauseMenuUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,18 @@ public class GameManager : MonoBehaviour
         if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(gameIsPaused == true)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
         }
     }
 
@@ -40,5 +55,26 @@ public class GameManager : MonoBehaviour
     public void OnQuitButtonPressed()
     {
         Application.Quit();
+    }
+
+    public void ResumeGame()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1.0f;
+        gameIsPaused = false;
+    }
+
+    public void PauseGame()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0.0f;
+        gameIsPaused = true;
+    }
+
+    public void OnMainMenuButtonPressed()
+    {
+        Time.timeScale = 1.0f;
+        gameIsPaused = false;
+        SceneManager.LoadScene("sce_Main_Menu", LoadSceneMode.Single);
     }
 }
