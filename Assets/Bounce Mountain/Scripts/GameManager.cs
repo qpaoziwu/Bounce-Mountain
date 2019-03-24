@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape) && currentScene.name != "sce_Main_Menu")
         {
             if(gameIsPaused == true)
             {
