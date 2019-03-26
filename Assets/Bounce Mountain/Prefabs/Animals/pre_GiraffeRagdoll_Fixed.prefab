@@ -595,9 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximumPull: 18
   playerData:
-  - {fileID: 11400000, guid: 4b25258a1ca142d4ea2c25c43e635e91, type: 2}
-  - {fileID: 11400000, guid: 2c1aaec8c72f258449282b56fdf08b00, type: 2}
-  - {fileID: 11400000, guid: beb10998a18a7124d983f0becd3752d0, type: 2}
+  - {fileID: 11400000, guid: 9e5bb93b418a8dd4dafb8e4763b95f14, type: 2}
   currentCheckPoint: 0
   lastCheckpointTime: 0
   objectType: 0
