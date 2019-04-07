@@ -13,12 +13,20 @@ public class GameManager : MonoBehaviour
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
 
+    private GameObject StatsManagerObject;
+    private StatsManager StatsManagerScript;
+
     // Start is called before the first frame update
     void Start()
     {
         checkpointsInLevel = GameObject.FindGameObjectsWithTag("Checkpoint").Length;
         checkpointsRemaining = checkpointsInLevel;
         currentScene = SceneManager.GetActiveScene();
+
+        StatsManagerObject = GameObject.FindGameObjectWithTag("StatsManager");
+        StatsManagerScript = StatsManagerObject.GetComponent<StatsManager>();
+        
+        StatsManagerScript.setStartScene();
     }
 
     // Update is called once per frame
@@ -27,6 +35,7 @@ public class GameManager : MonoBehaviour
         if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" && 
             Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
         {
+            StatsManagerScript.setHighScoreTime();
             SceneManager.LoadScene(currentScene.buildIndex + 1);
         }
 
@@ -50,7 +59,7 @@ public class GameManager : MonoBehaviour
 
     public void OnPlayButtonPressed()
     {
-        SceneManager.LoadScene("sce_Level_1", LoadSceneMode.Single);
+        SceneManager.LoadScene("sce_Level_2", LoadSceneMode.Single);
     }
 
     public void OnQuitButtonPressed()
