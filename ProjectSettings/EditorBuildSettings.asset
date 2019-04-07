@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_2.unity
     guid: 54183d4120f0dbe45a7870a5041f4108
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_5.unity
+    guid: bc9203a9c02c6c44ba7b009b8265f85f
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_6.unity
+    guid: 6b8a5bbbfd9d30548b37c17b239d35ec
   m_configObjects: {}
