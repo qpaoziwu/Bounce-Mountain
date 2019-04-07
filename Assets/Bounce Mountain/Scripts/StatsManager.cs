@@ -41,7 +41,7 @@ public class StatsManager : MonoBehaviour
     public void setHighScoreTime()
     {
         Debug.Log(currentscene.buildIndex);
-        if(highScoreTime[currentscene.buildIndex] < currentLevelTime)
+        if(highScoreTime[currentscene.buildIndex] > currentLevelTime || highScoreTime[currentscene.buildIndex] == 0)
             highScoreTime[currentscene.buildIndex] = currentLevelTime;
         Debug.Log(highScoreTime[currentscene.buildIndex]);
     }
