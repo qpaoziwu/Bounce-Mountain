@@ -21,12 +21,16 @@ public class PlayerController : MonoBehaviour
     private LineRenderer lineRendererComponent;
     private AudioSource audioSourceComponent;
     private Launch launchComponent;
+    private HazardEffect hazardEffectComponent;
 
     public int objectType;
+
+    private Vector2 spawnPosition;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Initialize components
         rigidbody2DComponent = gameObject.GetComponentInChildren<Rigidbody2D>();
         lineRendererComponent = gameObject.GetComponentInChildren<LineRenderer>();
         launchComponent = gameObject.GetComponentInChildren<Launch>();
@@ -38,6 +42,8 @@ public class PlayerController : MonoBehaviour
         increaseForceMultiplier = playerData[0].increaseForceMultiplier;
         reduceForceMultiplier = playerData[0].reduceForceMultiplier;
         gameObject.GetComponent<SpriteRenderer>().color = playerData[0].objectColour;
+
+        spawnPosition = rigidbody2DComponent.position;
     }
 
     // Update is called once per frame

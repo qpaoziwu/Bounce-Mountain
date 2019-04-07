@@ -24,9 +24,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu")
+        if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" && 
+            Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(currentScene.buildIndex + 1);
         }
 
         if(Input.GetKeyDown(KeyCode.Escape) && currentScene.name != "sce_Main_Menu")
