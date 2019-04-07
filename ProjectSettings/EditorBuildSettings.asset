@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Menus/sce_Main_Menu.unity
+    guid: 79a95383408ffc6409158757dcfd1022
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_1.unity
+    guid: 1d78fed6796db8441a74f62d5e3218e2
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_2.unity
+    guid: 54183d4120f0dbe45a7870a5041f4108
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_3.unity
+    guid: 3c8b14ebfe25d9a4cae4433e4b9077ab
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_4.unity
+    guid: 15759a4ab6d2abd449092f4e4995562d
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_5.unity
+    guid: bc9203a9c02c6c44ba7b009b8265f85f
+  - enabled: 1
+    path: Assets/Bounce Mountain/Scenes/Levels/sce_Level_6.unity
+    guid: 6b8a5bbbfd9d30548b37c17b239d35ec
   m_configObjects: {}
