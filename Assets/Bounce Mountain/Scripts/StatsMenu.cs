@@ -15,7 +15,7 @@ public class StatsMenu : MonoBehaviour
         StatsManager StatsManagerScript = GameObject.FindGameObjectWithTag("StatsManager").GetComponent<StatsManager>();
         for (int i = 0; i < levelTimes.Length; i++)
         {
-            levelTimes[i].GetComponent<TextMeshProUGUI>().text = "Level " + (i + 1) + ": " + StatsManagerScript.highScoreTime[i + 1] + " s";
+            levelTimes[i].GetComponent<TextMeshProUGUI>().text = "Level " + (i + 1) + ":       " + StatsManagerScript.highScoreTime[i + 1] + " s";
             if(StatsManagerScript.highScoreTime[i+1] < StatsManagerScript.goldScoreTimes[i] && StatsManagerScript.highScoreTime[i + 1] != 0)
             {
                 //Display Gold

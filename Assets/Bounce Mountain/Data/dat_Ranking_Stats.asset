@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c45983867c140a4a89ec340af313037, type: 3}
-  m_Name: New Ranking Data
+  m_Name: dat_Ranking_Stats
   m_EditorClassIdentifier: 
   goldScoreTimes:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
   silverScoreTimes:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
   bronzeScoreTimes:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
