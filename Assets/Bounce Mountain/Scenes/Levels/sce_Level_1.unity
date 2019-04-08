@@ -378,6 +378,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7999263564249714140, guid: ace4c43e1043177429adb02c43bbfd5f,
+        type: 3}
+      propertyPath: OnHitEvent
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7999263564249714139, guid: ace4c43e1043177429adb02c43bbfd5f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -435,6 +440,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace4c43e1043177429adb02c43bbfd5f, type: 3}
+--- !u!114 &243166952 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7999263564249714140, guid: ace4c43e1043177429adb02c43bbfd5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 243166951}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec90fb22a7474645b967d4eb43e94a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &319087845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -611,7 +628,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 243166952}
     - target: {fileID: 3765877857505731229, guid: 2b118c3ed8ad26146b6d9ca19ff4d225,
         type: 3}
       propertyPath: OnHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName

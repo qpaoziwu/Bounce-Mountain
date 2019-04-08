@@ -20,7 +20,6 @@ public class StatsManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         highScoreTime = new float[SceneManager.sceneCountInBuildSettings];
-        Debug.Log(highScoreTime.Length);
     }
 
     private void Update()

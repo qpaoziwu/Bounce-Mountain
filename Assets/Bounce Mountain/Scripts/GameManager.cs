@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
 
     public void OnPlayButtonPressed()
     {
-        SceneManager.LoadScene("sce_Level_2", LoadSceneMode.Single);
+        SceneManager.LoadScene("sce_Level_1", LoadSceneMode.Single);
     }
 
     public void OnQuitButtonPressed()
