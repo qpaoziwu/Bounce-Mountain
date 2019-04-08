@@ -18,5 +18,4 @@ public class StatsMenu : MonoBehaviour
             levelTimes[i].GetComponent<TextMeshProUGUI>().text = "Level " + (i + 1) + ": " + StatsManagerScript.highScoreTime[i + 1] + " s";
         }
     }
-
 }
