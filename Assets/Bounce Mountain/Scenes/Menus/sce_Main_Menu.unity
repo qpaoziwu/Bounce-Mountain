@@ -606,7 +606,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -632,6 +632,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319566193}
   m_CullTransparentMesh: 0
+--- !u!1 &426301662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 862573378934569167, guid: 39993a394f506b045bc645b1955cb5ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 2092416143}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &455734767
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,7 +883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &858666701
 Transform:
   m_ObjectHideFlags: 0
@@ -1031,7 +1037,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1643,7 +1649,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1775,7 +1781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1405216046
 Transform:
   m_ObjectHideFlags: 0
@@ -1811,6 +1817,15 @@ MonoBehaviour:
   - {fileID: 1993088183}
   - {fileID: 1285224280}
   - {fileID: 1323123568}
+  rankingCrown:
+  - {fileID: 862573378934569167}
+  - {fileID: 426301662}
+  - {fileID: 1606478031}
+  rankingCrownSprites:
+  - {fileID: 21300000, guid: 8cb4ca70a0317af47a381c864ee7e01a, type: 3}
+  - {fileID: 21300000, guid: 220ddc3558454a743921024b2544bfcd, type: 3}
+  - {fileID: 21300000, guid: 23c73ec426cc05b42a0d32ec8c8cd15f, type: 3}
+  - {fileID: 21300000, guid: 271b267f42a8ea443a6e39d4416e49e5, type: 3}
 --- !u!1001 &1470197758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2078,7 +2093,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2104,6 +2119,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555875734}
   m_CullTransparentMesh: 0
+--- !u!1 &1606478031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 862573378934569167, guid: 39993a394f506b045bc645b1955cb5ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1850772388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1850772388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2572,6 +2593,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092889041}
   m_CullTransparentMesh: 0
+--- !u!1 &862573378934569167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 862573378934569167, guid: 39993a394f506b045bc645b1955cb5ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 9100340714711949391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9100340714711949391
 PrefabInstance:
   m_ObjectHideFlags: 0
