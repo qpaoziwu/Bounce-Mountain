@@ -16,25 +16,25 @@ public class StatsMenu : MonoBehaviour
         for (int i = 0; i < levelTimes.Length; i++)
         {
             levelTimes[i].GetComponent<TextMeshProUGUI>().text = "Level " + (i + 1) + ": " + StatsManagerScript.highScoreTime[i + 1] + " s";
-            if(StatsManagerScript.highScoreTime[i+1] < StatsManagerScript.goldScoreTimes[i])
+            if(StatsManagerScript.highScoreTime[i+1] < StatsManagerScript.goldScoreTimes[i] && StatsManagerScript.highScoreTime[i + 1] != 0)
             {
                 //Display Gold
-                Debug.Log(i + "Got Gold");
+                Debug.Log((i+1) + "Got Gold");
             }
-            else if(StatsManagerScript.highScoreTime[i + 1] < StatsManagerScript.silverScoreTimes[i])
+            else if(StatsManagerScript.highScoreTime[i + 1] < StatsManagerScript.silverScoreTimes[i] && StatsManagerScript.highScoreTime[i + 1] != 0)
             {
                 //Display Silver
-                Debug.Log(i + "Got Silver");
+                Debug.Log((i+1) + "Got Silver");
             }
-            else if(StatsManagerScript.highScoreTime[i + 1] < StatsManagerScript.bronzeScoreTimes[i])
+            else if(StatsManagerScript.highScoreTime[i + 1] < StatsManagerScript.bronzeScoreTimes[i] && StatsManagerScript.highScoreTime[i + 1] != 0)
             {
                 //Display Bronze
-                Debug.Log(i + "Got Bronze");
+                Debug.Log((i+1) + "Got Bronze");
             }
             else
             {
                 //Display empty metal
-                Debug.Log(i + "Got Nothing");
+                Debug.Log((i+1) + "Got Nothing");
             }
         }
     }
