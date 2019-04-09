@@ -24,9 +24,13 @@ public class GameManager : MonoBehaviour
         currentScene = SceneManager.GetActiveScene();
 
         StatsManagerObject = GameObject.FindGameObjectWithTag("StatsManager");
-        StatsManagerScript = StatsManagerObject.GetComponent<StatsManager>();
+        if (StatsManagerObject != null)
+        {
+            StatsManagerScript = StatsManagerObject.GetComponent<StatsManager>();
+            StatsManagerScript.setStartScene();
+        }
         
-        StatsManagerScript.setStartScene();
+        
     }
 
     // Update is called once per frame

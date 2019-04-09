@@ -10,6 +10,12 @@ public class StatsManager : MonoBehaviour
     float levelStartTime;
     Scene currentscene;
 
+    public float[] goldScoreTimes;
+    public float[] silverScoreTimes;
+    public float[] bronzeScoreTimes;
+    public RankingData rankingStats;
+    
+
     private void Awake()
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("StatsManager");
@@ -20,6 +26,9 @@ public class StatsManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         highScoreTime = new float[SceneManager.sceneCountInBuildSettings];
+        goldScoreTimes = rankingStats.goldScoreTimes;
+        silverScoreTimes = rankingStats.silverScoreTimes;
+        bronzeScoreTimes = rankingStats.bronzeScoreTimes;
     }
 
     private void Update()
