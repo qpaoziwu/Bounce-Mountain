@@ -3887,7 +3887,6 @@ MonoBehaviour:
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -3931,16 +3930,6 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1770251980
 MonoBehaviour:
-=======
-  highScoreTime: []
-  currentLevelTime: 0
-  goldScoreTimes: []
-  silverScoreTimes: []
-  bronzeScoreTimes: []
-  rankingStats: {fileID: 11400000, guid: a487d7a57b3e2ea47a71b99e646192d9, type: 2}
---- !u!4 &1550544819
-Transform:
->>>>>>> 5ec1a85247ffd71aeebefe109bcf825d00182458
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}

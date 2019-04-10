@@ -3,17 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Checkpoint
-  - Hazard
-  - StatsManager
-  - GameManager
-<<<<<<< HEAD
-  - GiraffeVisual
-  - GiraffeBody
-=======
-  - TimeTracker
->>>>>>> 5ec1a85247ffd71aeebefe109bcf825d00182458
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -23,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - Player
-  - PlayerLimbs
-  - Platform
-  - MovingPlatform
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
