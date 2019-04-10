@@ -1379,7 +1379,7 @@ MonoBehaviour:
   xPositionMin: -8
   xPositionMax: 8
   yPositionMax: 50
-  yPositionMin: 6
+  yPositionMin: 8
 --- !u!1001 &602230136
 PrefabInstance:
   m_ObjectHideFlags: 0
