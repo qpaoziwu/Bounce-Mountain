@@ -39,7 +39,10 @@ public class GameManager : MonoBehaviour
         if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" && 
             Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
         {
-            StatsManagerScript.setHighScoreTime();
+            if (StatsManagerObject != null)
+            {
+                StatsManagerScript.setHighScoreTime();
+            }
             SceneManager.LoadScene(currentScene.buildIndex + 1);
         }
 
