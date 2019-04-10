@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
 
     private GameObject StatsManagerObject;
     private StatsManager StatsManagerScript;
+    private GameObject TimeTrackerObject;
+    private TimeTracker TimeTrackerScript;
 
     // Start is called before the first frame update
     void Start()
@@ -27,10 +29,16 @@ public class GameManager : MonoBehaviour
         if (StatsManagerObject != null)
         {
             StatsManagerScript = StatsManagerObject.GetComponent<StatsManager>();
-            StatsManagerScript.setStartScene();
+            StatsManagerScript.SetStartScene();
         }
-        
-        
+
+        TimeTrackerObject = GameObject.FindGameObjectWithTag("TimeTracker");
+        if (TimeTrackerObject != null)
+        {
+            TimeTrackerScript = TimeTrackerObject.GetComponent<TimeTracker>();
+            TimeTrackerScript.SetStartScene();
+        }
+
     }
 
     // Update is called once per frame
@@ -39,11 +47,19 @@ public class GameManager : MonoBehaviour
         if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" && 
             Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
         {
-            if (StatsManagerObject != null)
+            if (TimeTrackerObject != null)
             {
-                StatsManagerScript.setHighScoreTime();
+                TimeTrackerScript.OnSceneRestart();
+                SceneManager.LoadScene(currentScene.buildIndex);
             }
-            SceneManager.LoadScene(currentScene.buildIndex + 1);
+            else
+            {
+                if (StatsManagerObject != null)
+                {
+                    StatsManagerScript.SetHighScoreTime();
+                }
+                SceneManager.LoadScene(currentScene.buildIndex + 1);
+            }
         }
 
         if(Input.GetKeyDown(KeyCode.Escape) && currentScene.name != "sce_Main_Menu")

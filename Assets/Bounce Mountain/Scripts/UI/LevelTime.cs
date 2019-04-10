@@ -13,9 +13,10 @@ public class LevelTime : MonoBehaviour
     void Start()
     {
         timerText = GetComponent<TextMeshProUGUI>();
-        if (GameObject.FindGameObjectWithTag("StatsManager") != null)
+
+        statsManagerObject = GameObject.FindGameObjectWithTag("StatsManager");
+        if(statsManagerObject != null)
         {
-            statsManagerObject = GameObject.FindGameObjectWithTag("StatsManager");
             statsManagerScript = statsManagerObject.GetComponent<StatsManager>();
         }
         else

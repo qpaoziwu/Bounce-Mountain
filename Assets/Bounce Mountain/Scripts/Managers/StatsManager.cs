@@ -38,13 +38,13 @@ public class StatsManager : MonoBehaviour
     }
 
 
-    public void setStartScene()
+    public void SetStartScene()
     {
         currentscene = SceneManager.GetActiveScene();
         levelStartTime = Time.time;
     }
 
-    public void setHighScoreTime()
+    public void SetHighScoreTime()
     {
         Debug.Log(currentscene.buildIndex);
         if(highScoreTime[currentscene.buildIndex] > currentLevelTime || highScoreTime[currentscene.buildIndex] == 0)

@@ -1940,6 +1940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highScoreTime: []
+  currentLevelTime: 0
   goldScoreTimes: []
   silverScoreTimes: []
   bronzeScoreTimes: []
