@@ -44,11 +44,12 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" && 
+        if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" &&
             Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
         {
             if (TimeTrackerObject != null)
             {
+
                 TimeTrackerScript.OnSceneRestart();
                 SceneManager.LoadScene(currentScene.buildIndex);
             }
@@ -58,13 +59,23 @@ public class GameManager : MonoBehaviour
                 {
                     StatsManagerScript.SetHighScoreTime();
                 }
-                SceneManager.LoadScene(currentScene.buildIndex + 1);
+                if (currentScene.name != "sce_Level_6")
+                {
+                    SceneManager.LoadScene(currentScene.buildIndex + 1);
+                }
+
             }
+
+        }
+        else if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" &&
+        !Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
+        {
+            SceneManager.LoadScene(0);
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape) && currentScene.name != "sce_Main_Menu")
+        if (Input.GetKeyDown(KeyCode.Escape) && currentScene.name != "sce_Main_Menu")
         {
-            if(gameIsPaused == true)
+            if (gameIsPaused == true)
             {
                 ResumeGame();
             }
