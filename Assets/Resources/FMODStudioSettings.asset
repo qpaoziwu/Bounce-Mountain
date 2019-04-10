@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: 
-  SourceProjectPathUnformatted: 
-  SourceBankPathUnformatted: 
+  sourceProjectPath: Assets\FMOD-Bounce Mountain\FMOD - Bounce Mountain\FMOD - Bounce
+    Mountain.fspro
+  SourceProjectPathUnformatted: Assets\FMOD-Bounce Mountain\FMOD - Bounce Mountain\FMOD
+    - Bounce Mountain.fspro
+  SourceBankPathUnformatted: Assets\FMOD-Bounce Mountain\FMOD - Bounce Mountain\Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   ImportType: 0

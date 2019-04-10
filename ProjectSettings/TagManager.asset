@@ -8,8 +8,12 @@ TagManager:
   - Hazard
   - StatsManager
   - GameManager
+<<<<<<< HEAD
   - GiraffeVisual
   - GiraffeBody
+=======
+  - TimeTracker
+>>>>>>> 5ec1a85247ffd71aeebefe109bcf825d00182458
   layers:
   - Default
   - TransparentFX
