@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class StatsManager : MonoBehaviour
 {
     public float[] highScoreTime;
-    float currentLevelTime;
+    public float currentLevelTime;
     float levelStartTime;
     Scene currentscene;
 
