@@ -8,6 +8,8 @@ TagManager:
   - Hazard
   - StatsManager
   - GameManager
+  - GiraffeVisual
+  - GiraffeBody
   layers:
   - Default
   - TransparentFX
