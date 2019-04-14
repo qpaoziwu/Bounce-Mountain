@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     private GameObject TimeTrackerObject;
     private TimeTracker TimeTrackerScript;
 
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +61,7 @@ public class GameManager : MonoBehaviour
                 {
                     StatsManagerScript.SetHighScoreTime();
                 }
+
                 if (currentScene.name != "sce_Level_6")
                 {
                     SceneManager.LoadScene(currentScene.buildIndex + 1);
