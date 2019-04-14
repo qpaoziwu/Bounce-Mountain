@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{2bd7b94b-9f5f-4e79-8c6e-2f7115f89d0e}">
+        <property name="assetPath">
+            <value>Impact.Many Punches-SoundBible.com-1623072177-009.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.5115192743764172</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{7fc7f1fb-c586-44e5-a76c-627fb41ce7cc}</destination>
+        </relationship>
+    </object>
+</objects>

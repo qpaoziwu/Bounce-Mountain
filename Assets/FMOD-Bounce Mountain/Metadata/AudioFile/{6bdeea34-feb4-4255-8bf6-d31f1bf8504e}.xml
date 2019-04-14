@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{6bdeea34-feb4-4255-8bf6-d31f1bf8504e}">
+        <property name="assetPath">
+            <value>Goat.Bleat-SoundBible.com-893851569.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.96687074829931974</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{7fc7f1fb-c586-44e5-a76c-627fb41ce7cc}</destination>
+        </relationship>
+    </object>
+</objects>

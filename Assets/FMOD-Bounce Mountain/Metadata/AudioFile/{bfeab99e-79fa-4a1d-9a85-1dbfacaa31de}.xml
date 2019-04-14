@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{bfeab99e-79fa-4a1d-9a85-1dbfacaa31de}">
+        <property name="assetPath">
+            <value>Frog.frog croaking sound-001.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.5</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{7fc7f1fb-c586-44e5-a76c-627fb41ce7cc}</destination>
+        </relationship>
+    </object>
+</objects>

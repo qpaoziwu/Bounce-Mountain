@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{bd008cb1-c76d-46cf-8db1-ef2a486e08cb}">
+        <property name="assetPath">
+            <value>Metal Impact.Metal Clang-SoundBible.com-19572601.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.62965986394557827</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{7fc7f1fb-c586-44e5-a76c-627fb41ce7cc}</destination>
+        </relationship>
+    </object>
+</objects>

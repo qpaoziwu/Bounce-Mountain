@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{d6a80487-a525-4b07-be0b-bc399f805335}">
+        <property name="assetPath">
+            <value>Impact.Left Hook-SoundBible.com-516660386.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.34158730158730161</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{7fc7f1fb-c586-44e5-a76c-627fb41ce7cc}</destination>
+        </relationship>
+    </object>
+</objects>
