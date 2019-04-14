@@ -17,8 +17,8 @@ public class GameManager : MonoBehaviour
     private StatsManager StatsManagerScript;
     private GameObject TimeTrackerObject;
     private TimeTracker TimeTrackerScript;
-
-   
+    private GameObject MusicManagerObject;
+    private GameObject MusicManagerParent;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +40,18 @@ public class GameManager : MonoBehaviour
             TimeTrackerScript = TimeTrackerObject.GetComponent<TimeTracker>();
             TimeTrackerScript.SetStartScene();
         }
+
+        MusicManagerParent = GameObject.FindGameObjectWithTag("MusicManager");
+        MusicManagerObject = FindMusicManager(MusicManagerParent, "MainGameMusic");
+
+            if(currentScene != SceneManager.GetSceneByBuildIndex(0))
+            {
+                MusicManagerObject.SetActive(true);
+            }
+            else
+            {
+                MusicManagerObject.SetActive(false);
+            }
 
     }
 
@@ -127,5 +139,20 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1.0f;
         gameIsPaused = false;
         SceneManager.LoadScene("sce_Main_Menu", LoadSceneMode.Single);
+    }
+
+    public static GameObject FindMusicManager(GameObject parentObject, string name)
+    {
+        
+        Transform[] childTransforms = parentObject.GetComponentsInChildren<Transform>(true);
+        foreach(Transform trs in childTransforms)
+        {
+            if(trs.name == name)
+            {
+                return trs.gameObject;
+            }
+        }
+        return null;
+        
     }
 }

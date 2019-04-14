@@ -7,135 +7,13 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000000004F71BA88 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000000522057C8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000002634EC38
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000002634EC38
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000002634EC38
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000002634EC38
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000002634EC38
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000002634EC38
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000002634EC38
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000002634EC38
-[LOG] SystemI::createSound                     : filename = Assets\FMOD-Bounce Mountain\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000055B287E8 : node = 000000005174A5C0
-[LOG] SystemI::createSound                     : add node to async list : head = 000000005BD4A128.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B287E8
-[LOG] SystemI::createSoundInternal             :     Create name='Assets\FMOD-Bounce Mountain\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5210816
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 36064
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005174A6D8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Wind.259242__kwahmah-02__gust-of-wind-4', format=2, channels=2, frequency=48000, lengthbytes=160768, lengthpcm=576000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.296021.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B287E8
-[LOG] SoundI::getSubSound                      : sound 0000000055B287E8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : Wind.259242__kwahmah-02__gust-of-wind-4 (000000002634EDE8)
-[LOG] SoundI::release                          :     Wind.259242__kwahmah-02__gust-of-wind-4 (000000005BD4AB38)
-[LOG] SoundI::release                          :     Wind.259242__kwahmah-02__gust-of-wind-4 (000000002634EC38)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B29058
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B29058
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B29058
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B29058
-[LOG] SystemI::createSound                     : filename = Assets\FMOD-Bounce Mountain\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000055B28CF8 : node = 000000005174A320
-[LOG] SystemI::createSound                     : add node to async list : head = 000000005BD4A128.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000055B28CF8
-[LOG] SystemI::createSoundInternal             :     Create name='Assets\FMOD-Bounce Mountain\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5210816
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 36064
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005174A438
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Wind.259242__kwahmah-02__gust-of-wind-4', format=2, channels=2, frequency=48000, lengthbytes=160768, lengthpcm=576000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.296021.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000055B28CF8
-[LOG] SoundI::getSubSound                      : sound 0000000055B28CF8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : Wind.259242__kwahmah-02__gust-of-wind-4 (0000000055B287E8)
-[LOG] SoundI::release                          :     Wind.259242__kwahmah-02__gust-of-wind-4 (00000000261B5EA8)
-[LOG] SoundI::release                          :     Wind.259242__kwahmah-02__gust-of-wind-4 (0000000055B29058)
-[LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
-[LOG] SoundI::release                          : Wind.259242__kwahmah-02__gust-of-wind-4 (0000000055B28CF8)
-[LOG] SoundI::release                          :     Wind.259242__kwahmah-02__gust-of-wind-4 (00000000261B6528)
-[LOG] SoundI::release                          :     Wind.259242__kwahmah-02__gust-of-wind-4 (0000000055B27558)
-[LOG] SoundI::release                          :  (0000000055592818)
-[LOG] SoundI::release                          :     Impact.Batman Punch-SoundBible.com-456755860 (0000000026C02458)
-[LOG] SoundI::release                          :  (000000005B9817E8)
-[LOG] SoundI::release                          :     Impact.Jab-SoundBible.com-1806727891 (0000000026C03E58)
-[LOG] SoundI::release                          :  (000000005B982C08)
-[LOG] SoundI::release                          :     Impact.Left Hook-SoundBible.com-516660386 (0000000026C02E18)
-[LOG] SoundI::release                          :  (000000005B9821F8)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-001 (0000000026C037D8)
-[LOG] SoundI::release                          :  (0000000062C50598)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-002 (00000000265E17A8)
-[LOG] SoundI::release                          :  (000000006764E8D8)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-003 (000000005BD4B358)
-[LOG] SoundI::release                          :  (000000006764E1A8)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-004 (000000005BD4B1B8)
-[LOG] SoundI::release                          :  (00000000555926A8)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-005 (000000005BD4B698)
-[LOG] SoundI::release                          :  (000000006E898558)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-006 (0000000026C02118)
-[LOG] SoundI::release                          :  (000000006764E038)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-007 (000000005BD4ACD8)
-[LOG] SoundI::release                          :  (000000006764DEC8)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-008 (000000005BD4AE78)
-[LOG] SoundI::release                          :  (00000000555930B8)
-[LOG] SoundI::release                          :     Impact.Many Punches-SoundBible.com-1623072177-009 (0000000026C03158)
-[LOG] SoundI::release                          :  (000000006E897E28)
-[LOG] SoundI::release                          :     Impact.Right Cross-SoundBible.com-1721311663 (0000000026C02938)
-[LOG] SoundI::release                          :  (0000000062C4EE98)
-[LOG] SoundI::release                          :     Impact.Right Hook-SoundBible.com-1406389182 (00000000265E1FC8)
-[LOG] SoundI::release                          :  (000000005B981678)
-[LOG] SoundI::release                          :     Wood Impact.Wood Whack-SoundBible.com-1254461064 (0000000026C03978)
-[LOG] SoundI::release                          :  (000000006E8986C8)
-[LOG] SoundI::release                          :     Metal Impact.Metal Clang-SoundBible.com-19572601 (0000000026C025F8)
-[LOG] SoundI::release                          :  (000000006E897CB8)
-[LOG] SoundI::release                          :     Frog.frog croaking sound-001 (0000000026C03B18)
-[LOG] SoundI::release                          :  (000000005B981F18)
-[LOG] SoundI::release                          :     Frog.frog croaking sound-002 (0000000026C02C78)
-[LOG] SoundI::release                          :  (000000006E898838)
-[LOG] SoundI::release                          :     Giraffe.camel2 (0000000026C02798)
-[LOG] SoundI::release                          :  (000000006764DD58)
-[LOG] SoundI::release                          :     Giraffe.camel6 (000000005BD4B018)
-[LOG] SoundI::release                          :  (0000000062C4F5C8)
-[LOG] SoundI::release                          :     Giraffe.horse_blow-stephan_schutze-1678740304 (00000000265E2168)
-[LOG] SoundI::release                          :  (0000000055592538)
-[LOG] SoundI::release                          :     Goat.Bleat-SoundBible.com-893851569 (000000005BD4B4F8)
-[LOG] SoundI::release                          :  (0000000055592F48)
-[LOG] SoundI::release                          :     Goat.Goat Bah-SoundBible.com-959734934 (0000000026C03638)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.
 [LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
 [LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
 [LOG] Manager::readBank                        : fileversion = 103, compatVersion = 99 (oldest = 44, newest = 103)
