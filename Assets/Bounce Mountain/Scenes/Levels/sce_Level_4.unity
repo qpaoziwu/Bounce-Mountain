@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 480646306}
   m_Layer: 0
   m_Name: Bounds
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -572,6 +572,25 @@ PrefabInstance:
       objectReference: {fileID: 1794464026}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 885d52aa40cae614cb32f395d872c713, type: 3}
+--- !u!1 &1086721920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3618731860480003969, guid: 885d52aa40cae614cb32f395d872c713,
+    type: 3}
+  m_PrefabInstance: {fileID: 1086721919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1086721921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086721920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!1 &1136012243 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6951111168546525810, guid: 47642717179846b48874dd544927f5b7,
@@ -686,7 +705,7 @@ GameObject:
   - component: {fileID: 1576720500}
   m_Layer: 0
   m_Name: World
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1352,16 +1371,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999263563275190382, guid: ace4c43e1043177429adb02c43bbfd5f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7999263563275190380, guid: ace4c43e1043177429adb02c43bbfd5f,
-        type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace4c43e1043177429adb02c43bbfd5f, type: 3}

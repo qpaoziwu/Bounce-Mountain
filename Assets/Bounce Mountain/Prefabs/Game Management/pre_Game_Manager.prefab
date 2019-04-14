@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7999263564249714139}
   - component: {fileID: 7999263564249714140}
-  - component: {fileID: 8285885948454892788}
   m_Layer: 0
   m_Name: pre_Game_Manager
   m_TagString: Untagged
@@ -48,19 +47,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnHitEvent: {fileID: 0}
   pauseMenuUI: {fileID: 8246849121285096923}
---- !u!114 &8285885948454892788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6689821853010935894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListenerNumber: 0
 --- !u!1 &7999263563275190378
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +248,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7999263563275190382}
     m_Modifications:
+    - target: {fileID: 1856351422667603717, guid: b20eb30107704744bab0b18801722e5c,
+        type: 3}
+      propertyPath: m_Name
+      value: pre_Level_Time
+      objectReference: {fileID: 0}
     - target: {fileID: 1856351422667603716, guid: b20eb30107704744bab0b18801722e5c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -366,11 +357,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1856351422667603717, guid: b20eb30107704744bab0b18801722e5c,
-        type: 3}
-      propertyPath: m_Name
-      value: pre_Level_Time
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b20eb30107704744bab0b18801722e5c, type: 3}
