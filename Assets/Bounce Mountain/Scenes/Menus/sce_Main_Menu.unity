@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 8216421}
   - component: {fileID: 8216420}
   - component: {fileID: 8216423}
+  - component: {fileID: 8216424}
   m_Layer: 5
   m_Name: Level 5 Button
   m_TagString: Untagged
@@ -255,6 +256,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 5
+--- !u!114 &8216424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &21578601
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +282,7 @@ GameObject:
   - component: {fileID: 21578605}
   - component: {fileID: 21578604}
   - component: {fileID: 21578603}
+  - component: {fileID: 21578606}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -395,6 +411,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21578601}
   m_CullTransparentMesh: 0
+--- !u!114 &21578606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21578601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &134561781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9100340716091096312, guid: 39993a394f506b045bc645b1955cb5ca,
@@ -419,6 +449,7 @@ GameObject:
   - component: {fileID: 176508810}
   - component: {fileID: 176508809}
   - component: {fileID: 176508808}
+  - component: {fileID: 176508811}
   m_Layer: 5
   m_Name: Stats Button
   m_TagString: Untagged
@@ -547,6 +578,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176508806}
   m_CullTransparentMesh: 0
+--- !u!114 &176508811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176508806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1001 &200717361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -629,6 +674,7 @@ GameObject:
   - component: {fileID: 258264641}
   - component: {fileID: 258264640}
   - component: {fileID: 258264643}
+  - component: {fileID: 258264644}
   m_Layer: 5
   m_Name: Level 4 Button
   m_TagString: Untagged
@@ -759,6 +805,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 4
+--- !u!114 &258264644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258264638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &319566193
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +998,7 @@ GameObject:
   - component: {fileID: 455734771}
   - component: {fileID: 455734770}
   - component: {fileID: 455734769}
+  - component: {fileID: 455734772}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -1055,6 +1116,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455734767}
   m_CullTransparentMesh: 0
+--- !u!114 &455734772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455734767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &557440138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,6 +1607,7 @@ GameObject:
   - component: {fileID: 794044078}
   - component: {fileID: 794044077}
   - component: {fileID: 794044076}
+  - component: {fileID: 794044079}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -1660,6 +1736,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794044074}
   m_CullTransparentMesh: 0
+--- !u!114 &794044079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794044074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &814397458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,6 +3143,7 @@ GameObject:
   - component: {fileID: 1007964490}
   - component: {fileID: 1007964489}
   - component: {fileID: 1007964488}
+  - component: {fileID: 1007964491}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -3104,7 +3195,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.47058824}
     m_PressedColor: {r: 0, g: 0, b: 0, a: 0.7058824}
     m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
-    m_ColorMultiplier: 1
+    m_ColorMultiplier: 2.59
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -3170,6 +3261,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007964486}
   m_CullTransparentMesh: 0
+--- !u!114 &1007964491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007964486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &1049190434
 GameObject:
   m_ObjectHideFlags: 0
@@ -3426,6 +3531,7 @@ GameObject:
   - component: {fileID: 1062150800}
   - component: {fileID: 1062150799}
   - component: {fileID: 1062150802}
+  - component: {fileID: 1062150803}
   m_Layer: 5
   m_Name: Level 3 Button
   m_TagString: Untagged
@@ -3556,6 +3662,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 3
+--- !u!114 &1062150803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062150797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &1077597604 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 862573378934569167, guid: 39993a394f506b045bc645b1955cb5ca,
@@ -4365,6 +4485,7 @@ GameObject:
   - component: {fileID: 1770251980}
   - component: {fileID: 1770251979}
   - component: {fileID: 1770251982}
+  - component: {fileID: 1770251983}
   m_Layer: 5
   m_Name: Level 2 Button
   m_TagString: Untagged
@@ -4495,6 +4616,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 2
+--- !u!114 &1770251983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770251977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &1798073259
 GameObject:
   m_ObjectHideFlags: 0
@@ -4813,6 +4948,7 @@ GameObject:
   - component: {fileID: 1881489532}
   - component: {fileID: 1881489531}
   - component: {fileID: 1881489534}
+  - component: {fileID: 1881489535}
   m_Layer: 5
   m_Name: Level 6 Button
   m_TagString: Untagged
@@ -4943,6 +5079,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 6
+--- !u!114 &1881489535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881489529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1 &1886947968
 GameObject:
   m_ObjectHideFlags: 0
@@ -5028,6 +5178,7 @@ GameObject:
   - component: {fileID: 1899181149}
   - component: {fileID: 1899181148}
   - component: {fileID: 1899181147}
+  - component: {fileID: 1899181150}
   m_Layer: 5
   m_Name: Level Select Button
   m_TagString: Untagged
@@ -5156,6 +5307,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899181145}
   m_CullTransparentMesh: 0
+--- !u!114 &1899181150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899181145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!114 &1969158886 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7999263564249714140, guid: ace4c43e1043177429adb02c43bbfd5f,
@@ -5193,6 +5358,7 @@ GameObject:
   - component: {fileID: 2052212943}
   - component: {fileID: 2052212942}
   - component: {fileID: 2052212945}
+  - component: {fileID: 2052212946}
   m_Layer: 5
   m_Name: Level 1 Button
   m_TagString: Untagged
@@ -5323,6 +5489,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 1
+--- !u!114 &2052212946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052212940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245cfa3a44f83b54aa3a61347de569e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonHighlightEvent: event:/UI/Button Highlight
+  buttonClickEvent: event:/UI/Button Click
 --- !u!1001 &2092416143
 PrefabInstance:
   m_ObjectHideFlags: 0

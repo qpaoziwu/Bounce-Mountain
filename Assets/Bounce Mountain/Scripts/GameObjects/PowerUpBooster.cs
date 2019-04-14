@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PowerUpBooster : MonoBehaviour
 {
+    [FMODUnity.EventRef]
+    public string boosterEvent;
+
     [Range(0.0f, 100.0f)] public float boostAmount;
 
     //Dropdown menu for booster direction in inspector
@@ -12,12 +15,15 @@ public class PowerUpBooster : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
+
         //If "None" is selected for booster direction
         if (boosterDirection == BoosterDirection.None)
         {
             if (other.gameObject.tag == "Player")
             {
                 other.attachedRigidbody.AddForce(boostAmount * other.attachedRigidbody.velocity, ForceMode2D.Impulse);
+                FMODUnity.RuntimeManager.PlayOneShot(boosterEvent, transform.position);
             }
         }
 
@@ -27,6 +33,7 @@ public class PowerUpBooster : MonoBehaviour
             if (other.gameObject.tag == "Player")
             {
                 other.attachedRigidbody.AddForce(Vector2.up * boostAmount + other.attachedRigidbody.velocity, ForceMode2D.Impulse);
+                FMODUnity.RuntimeManager.PlayOneShot(boosterEvent, transform.position);
             }
         }
 
@@ -36,6 +43,7 @@ public class PowerUpBooster : MonoBehaviour
             if (other.gameObject.tag == "Player")
             {
                 other.attachedRigidbody.AddForce(Vector2.right * boostAmount + other.attachedRigidbody.velocity, ForceMode2D.Impulse);
+                FMODUnity.RuntimeManager.PlayOneShot(boosterEvent, transform.position);
             }
         }
 
@@ -45,6 +53,7 @@ public class PowerUpBooster : MonoBehaviour
             if (other.gameObject.tag == "Player")
             {
                 other.attachedRigidbody.AddForce(Vector2.down * boostAmount + other.attachedRigidbody.velocity, ForceMode2D.Impulse);
+                FMODUnity.RuntimeManager.PlayOneShot(boosterEvent, transform.position);
             }
         }
 
@@ -54,6 +63,7 @@ public class PowerUpBooster : MonoBehaviour
             if (other.gameObject.tag == "Player")
             {
                 other.attachedRigidbody.AddForce(Vector2.left * boostAmount + other.attachedRigidbody.velocity, ForceMode2D.Impulse);
+                FMODUnity.RuntimeManager.PlayOneShot(boosterEvent, transform.position);
             }
         }
     }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 608328314577556075}
   - component: {fileID: 3588696695656600080}
   - component: {fileID: 464213438394456902}
+  - component: {fileID: 2799791965410828654}
   m_Layer: 0
   m_Name: Ear_l
   m_TagString: Untagged
@@ -134,7 +135,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.08, y: -0.24}
-  m_ConnectedAnchor: {x: 0.059997357, y: 0.9320027}
+  m_ConnectedAnchor: {x: 0.059998095, y: 0.93200195}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -143,6 +144,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -186.13338
     m_UpperAngle: 24.655005
+--- !u!114 &2799791965410828654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549520818719987869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &818222371243953809
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +332,7 @@ GameObject:
   - component: {fileID: 4263880103724759452}
   - component: {fileID: 8422219420291660394}
   - component: {fileID: 5140356889496970356}
+  - component: {fileID: 3155291063788887418}
   m_Layer: 0
   m_Name: f_leg1_l
   m_TagString: Untagged
@@ -445,6 +463,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
+--- !u!114 &3155291063788887418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183085897205191446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &2068726308161559434
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +492,7 @@ GameObject:
   - component: {fileID: 7550149398228490109}
   - component: {fileID: 1427691477718246704}
   - component: {fileID: 7389236093371401856}
+  - component: {fileID: 5272156877744089598}
   m_Layer: 0
   m_Name: b_leg1_l
   m_TagString: Untagged
@@ -588,6 +623,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 4.4671674
     m_UpperAngle: 188.77612
+--- !u!114 &5272156877744089598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068726308161559434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &2939138120589827200
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,6 +652,7 @@ GameObject:
   - component: {fileID: 5713287244189341664}
   - component: {fileID: 8716651920851861742}
   - component: {fileID: 4589820355605513034}
+  - component: {fileID: 5428873941720617139}
   m_Layer: 0
   m_Name: b_leg2_l
   m_TagString: Untagged
@@ -731,6 +783,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -43.66777
     m_UpperAngle: 228.11328
+--- !u!114 &5428873941720617139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2939138120589827200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &2940807440646608587
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +812,7 @@ GameObject:
   - component: {fileID: 2663291688605034475}
   - component: {fileID: 1036925650210036512}
   - component: {fileID: 320226162132837989}
+  - component: {fileID: 4097140313807711867}
   m_Layer: 0
   m_Name: f_leg1_r
   m_TagString: Untagged
@@ -874,6 +943,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -45.966198
     m_UpperAngle: 208.15163
+--- !u!114 &4097140313807711867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940807440646608587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &3332293481260395803
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,6 +1051,7 @@ GameObject:
   - component: {fileID: 7461472092317080806}
   - component: {fileID: 792887183514943244}
   - component: {fileID: 5484436034375495434}
+  - component: {fileID: 3303661166655350449}
   m_Layer: 0
   m_Name: Neck1
   m_TagString: Untagged
@@ -1096,6 +1182,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -165.98
     m_UpperAngle: 61.75
+--- !u!114 &3303661166655350449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177552429003550733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &4742593582861126515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,6 +1290,7 @@ GameObject:
   - component: {fileID: 9122003651820064455}
   - component: {fileID: 450455439734513362}
   - component: {fileID: 4088366907122849516}
+  - component: {fileID: 2837811677763808730}
   m_Layer: 0
   m_Name: b_leg2_r
   m_TagString: Untagged
@@ -1318,6 +1421,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 340.33975
     m_UpperAngle: 614.5599
+--- !u!114 &2837811677763808730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4930468475584280674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &4963561912818523134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,6 +1609,7 @@ GameObject:
   - component: {fileID: 5525197912299458049}
   - component: {fileID: 6677524346086222306}
   - component: {fileID: 2622897173666894686}
+  - component: {fileID: 2377195877376757119}
   m_Layer: 0
   m_Name: f_leg2_l
   m_TagString: Untagged
@@ -1620,6 +1740,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
+--- !u!114 &2377195877376757119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5257362785906648775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &6951111168546525810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,6 +1769,7 @@ GameObject:
   - component: {fileID: 6650497125947609171}
   - component: {fileID: 6708359441416915073}
   - component: {fileID: 2159845944814568469}
+  - component: {fileID: 6700343278410169916}
   m_Layer: 0
   m_Name: f_leg2_r
   m_TagString: Untagged
@@ -1763,6 +1900,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
+--- !u!114 &6700343278410169916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6951111168546525810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &6966410069988460679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,6 +1929,7 @@ GameObject:
   - component: {fileID: 5042078324741463480}
   - component: {fileID: 718269779293346688}
   - component: {fileID: 767082909052481958}
+  - component: {fileID: 2641573500558565524}
   m_Layer: 0
   m_Name: b_leg1_r
   m_TagString: Untagged
@@ -1906,6 +2060,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 19.869492
     m_UpperAngle: 211.42944
+--- !u!114 &2641573500558565524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966410069988460679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &7461402225912266931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,9 +2089,10 @@ GameObject:
   - component: {fileID: 5966626779542506014}
   - component: {fileID: 8433835170206428617}
   - component: {fileID: 1842218867469152090}
+  - component: {fileID: 7025340391733232927}
   m_Layer: 0
   m_Name: Head
-  m_TagString: Untagged
+  m_TagString: Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2055,6 +2226,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -211.12303
     m_UpperAngle: 83.57119
+--- !u!114 &7025340391733232927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461402225912266931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &7699298132240488753
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,6 +2257,7 @@ GameObject:
   - component: {fileID: 6588285056682102298}
   - component: {fileID: 3582640784828492074}
   - component: {fileID: 4616984403813726492}
+  - component: {fileID: 5203077267609624043}
   m_Layer: 8
   m_Name: Body
   m_TagString: Player
@@ -2301,6 +2489,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cde85bfc77de4941ac1a88b5142a8f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5203077267609624043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7699298132240488753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &7936816989417368821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,6 +2561,7 @@ GameObject:
   - component: {fileID: 5088054498158731733}
   - component: {fileID: 6044604544363715981}
   - component: {fileID: 1697819643717520405}
+  - component: {fileID: 8177453257163683447}
   m_Layer: 0
   m_Name: Ear_r
   m_TagString: Untagged
@@ -2487,6 +2692,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -251.89578
     m_UpperAngle: -30.58049
+--- !u!114 &8177453257163683447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8828026813452682383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &8859963776211557393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,6 +2721,7 @@ GameObject:
   - component: {fileID: 5247383493770212269}
   - component: {fileID: 6357519143703708096}
   - component: {fileID: 2208544517753482603}
+  - component: {fileID: 4135791666870878115}
   m_Layer: 0
   m_Name: Neck2
   m_TagString: Untagged
@@ -2621,7 +2843,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.028637972, y: 0.24495202}
-  m_ConnectedAnchor: {x: 0.52239954, y: 0.5214666}
+  m_ConnectedAnchor: {x: 0.5224001, y: 0.5214666}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2630,6 +2852,22 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -203.01378
     m_UpperAngle: 63.944736
+--- !u!114 &4135791666870878115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8859963776211557393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0
 --- !u!1 &9148800508840473237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,6 +2881,7 @@ GameObject:
   - component: {fileID: 2625246695311204100}
   - component: {fileID: 884038371699441672}
   - component: {fileID: 5275199456273269033}
+  - component: {fileID: 2648294221192941726}
   m_Layer: 0
   m_Name: Tail
   m_TagString: Untagged
@@ -2773,3 +3012,19 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 79.74
     m_UpperAngle: 293.12
+--- !u!114 &2648294221192941726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9148800508840473237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f2ea5b3e6584347ba8b4d87c232d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSoundEvent: event:/SFX/Animal
+  impactSoundEvent: event:/SFX/Body Impact
+  motionEvent: event:/Environment/Animal Moving
+  motionVolume: 0

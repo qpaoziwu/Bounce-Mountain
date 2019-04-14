@@ -119,4 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3926bb036da232e42bb53182dd9b53b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boosterEvent: event:/SFX/Booster
   boostAmount: 0
+  boosterDirection: 0

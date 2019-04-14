@@ -22,18 +22,25 @@ public class PlayerController : MonoBehaviour
     private AudioSource audioSourceComponent;
     private Launch launchComponent;
     private HazardEffect hazardEffectComponent;
+    private AnimalSound[] animalSoundComponent;
 
     public int objectType;
 
     private Vector2 spawnPosition;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         //Initialize components
         rigidbody2DComponent = gameObject.GetComponentInChildren<Rigidbody2D>();
         lineRendererComponent = gameObject.GetComponentInChildren<LineRenderer>();
         launchComponent = gameObject.GetComponentInChildren<Launch>();
+        animalSoundComponent = gameObject.GetComponentsInChildren<AnimalSound>();
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
 
         //Disable the line renderer by default
         lineRendererComponent.enabled = false;

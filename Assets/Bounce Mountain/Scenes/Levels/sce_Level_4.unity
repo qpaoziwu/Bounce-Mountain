@@ -130,7 +130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1 &75881466 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5257362785906648775, guid: 47642717179846b48874dd544927f5b7,
@@ -149,7 +148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!4 &85778418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3765877857505731228, guid: 2b118c3ed8ad26146b6d9ca19ff4d225,
@@ -261,6 +259,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Left Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822584116688272568, guid: b54b49df3c2a1bf4abf00951719aec00,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3895971273810537880, guid: b54b49df3c2a1bf4abf00951719aec00,
         type: 3}
@@ -587,7 +590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1 &1263103393
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,7 +639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1 &1485656615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6966410069988460679, guid: 47642717179846b48874dd544927f5b7,
@@ -656,7 +657,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1 &1575785379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8859963776211557393, guid: 47642717179846b48874dd544927f5b7,
@@ -675,7 +675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1 &1576720499
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,7 +834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1 &1643773979 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1183085897205191446, guid: 47642717179846b48874dd544927f5b7,
@@ -854,7 +852,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1 &1679264903 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2939138120589827200, guid: 47642717179846b48874dd544927f5b7,
@@ -873,7 +870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1001 &1724387920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -885,6 +881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ceiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822584116688272568, guid: b54b49df3c2a1bf4abf00951719aec00,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3895971273810537880, guid: b54b49df3c2a1bf4abf00951719aec00,
         type: 3}
@@ -982,7 +983,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1001 &1794464025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -994,6 +994,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Right Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822584116688272568, guid: b54b49df3c2a1bf4abf00951719aec00,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3895971273810537880, guid: b54b49df3c2a1bf4abf00951719aec00,
         type: 3}
@@ -1091,7 +1096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f09ce409c9abeb46a01692ff3ab26ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  childRigidbody2DComponents: []
 --- !u!1001 &2089742699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1103,6 +1107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822584116688272568, guid: b54b49df3c2a1bf4abf00951719aec00,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3895971273810537880, guid: b54b49df3c2a1bf4abf00951719aec00,
         type: 3}
@@ -1194,6 +1203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7822584116688272568, guid: b54b49df3c2a1bf4abf00951719aec00,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3895971273810537880, guid: b54b49df3c2a1bf4abf00951719aec00,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1284,11 +1298,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Manager
       objectReference: {fileID: 0}
-    - target: {fileID: 7999263563275190382, guid: ace4c43e1043177429adb02c43bbfd5f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7999263564249714139, guid: ace4c43e1043177429adb02c43bbfd5f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1342,6 +1351,11 @@ PrefabInstance:
     - target: {fileID: 7999263564249714139, guid: ace4c43e1043177429adb02c43bbfd5f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7999263563275190382, guid: ace4c43e1043177429adb02c43bbfd5f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7999263563275190380, guid: ace4c43e1043177429adb02c43bbfd5f,
