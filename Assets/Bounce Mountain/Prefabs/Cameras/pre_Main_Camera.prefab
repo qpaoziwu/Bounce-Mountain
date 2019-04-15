@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3618731860480003965}
   - component: {fileID: 3618731860480003970}
   - component: {fileID: 3618731860480003971}
+  - component: {fileID: 159411967}
   m_Layer: 0
   m_Name: pre_Main_Camera
   m_TagString: MainCamera
@@ -68,7 +69,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 1
-  m_AllowMSAA: 0
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 0
@@ -90,3 +91,16 @@ MonoBehaviour:
   object2: {fileID: 0}
   minSizeY: 5
   screenEdgeOffset: 2
+--- !u!114 &159411967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3618731860480003969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0

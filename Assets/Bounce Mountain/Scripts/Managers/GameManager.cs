@@ -42,9 +42,11 @@ public class GameManager : MonoBehaviour
         }
 
         MusicManagerParent = GameObject.FindGameObjectWithTag("MusicManager");
-        MusicManagerObject = FindMusicManager(MusicManagerParent, "MainGameMusic");
+        if (MusicManagerParent != null)
+        {
+            MusicManagerObject = FindMusicManager(MusicManagerParent, "MainGameMusic");
 
-            if(currentScene != SceneManager.GetSceneByBuildIndex(0))
+            if (currentScene != SceneManager.GetSceneByBuildIndex(0))
             {
                 MusicManagerObject.SetActive(true);
             }
@@ -52,6 +54,7 @@ public class GameManager : MonoBehaviour
             {
                 MusicManagerObject.SetActive(false);
             }
+        }
 
     }
 
@@ -143,16 +146,16 @@ public class GameManager : MonoBehaviour
 
     public static GameObject FindMusicManager(GameObject parentObject, string name)
     {
-        
+
         Transform[] childTransforms = parentObject.GetComponentsInChildren<Transform>(true);
-        foreach(Transform trs in childTransforms)
+        foreach (Transform trs in childTransforms)
         {
-            if(trs.name == name)
+            if (trs.name == name)
             {
                 return trs.gameObject;
             }
         }
         return null;
-        
+
     }
 }
