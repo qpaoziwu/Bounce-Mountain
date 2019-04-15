@@ -63,7 +63,7 @@ public class AnimalSound : MonoBehaviour
     {
         if (other.gameObject.tag == "Ground" || other.gameObject.tag == "Wood" || other.gameObject.tag == "Metal")
         {
-            if (gameObject.tag == "Head")
+            if (gameObject.tag == "Player")
             {
                 animalState.start();
             }
