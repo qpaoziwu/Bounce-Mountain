@@ -13,12 +13,12 @@ public class GameManager : MonoBehaviour
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
 
-    private GameObject StatsManagerObject;
-    private StatsManager StatsManagerScript;
-    private GameObject TimeTrackerObject;
-    private TimeTracker TimeTrackerScript;
-    private GameObject MusicManagerObject;
-    private GameObject MusicManagerParent;
+    private GameObject statsManagerObject;
+    private StatsManager statsManagerScript;
+    private GameObject timeTrackerObject;
+    private TimeTracker timeTrackerScript;
+    private GameObject musicManagerObject;
+    private GameObject musicManagerParent;
 
     // Start is called before the first frame update
     void Start()
@@ -27,32 +27,32 @@ public class GameManager : MonoBehaviour
         checkpointsRemaining = checkpointsInLevel;
         currentScene = SceneManager.GetActiveScene();
 
-        StatsManagerObject = GameObject.FindGameObjectWithTag("StatsManager");
-        if (StatsManagerObject != null)
+        statsManagerObject = GameObject.FindGameObjectWithTag("StatsManager");
+        if (statsManagerObject != null)
         {
-            StatsManagerScript = StatsManagerObject.GetComponent<StatsManager>();
-            StatsManagerScript.SetStartScene();
+            statsManagerScript = statsManagerObject.GetComponent<StatsManager>();
+            statsManagerScript.SetStartScene();
         }
 
-        TimeTrackerObject = GameObject.FindGameObjectWithTag("TimeTracker");
-        if (TimeTrackerObject != null)
+        timeTrackerObject = GameObject.FindGameObjectWithTag("TimeTracker");
+        if (timeTrackerObject != null)
         {
-            TimeTrackerScript = TimeTrackerObject.GetComponent<TimeTracker>();
-            TimeTrackerScript.SetStartScene();
+            timeTrackerScript = timeTrackerObject.GetComponent<TimeTracker>();
+            timeTrackerScript.SetStartScene();
         }
 
-        MusicManagerParent = GameObject.FindGameObjectWithTag("MusicManager");
-        if (MusicManagerParent != null)
+        musicManagerParent = GameObject.FindGameObjectWithTag("MusicManager");
+        if (musicManagerParent != null)
         {
-            MusicManagerObject = FindMusicManager(MusicManagerParent, "MainGameMusic");
+            musicManagerObject = FindMusicManager(musicManagerParent, "MainGameMusic");
 
             if (currentScene != SceneManager.GetSceneByBuildIndex(0))
             {
-                MusicManagerObject.SetActive(true);
+                musicManagerObject.SetActive(true);
             }
             else
             {
-                MusicManagerObject.SetActive(false);
+                musicManagerObject.SetActive(false);
             }
         }
 
@@ -64,17 +64,17 @@ public class GameManager : MonoBehaviour
         if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" &&
             Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
         {
-            if (TimeTrackerObject != null)
+            if (timeTrackerObject != null)
             {
 
-                TimeTrackerScript.OnSceneRestart();
+                timeTrackerScript.OnSceneRestart();
                 SceneManager.LoadScene(currentScene.buildIndex);
             }
             else
             {
-                if (StatsManagerObject != null)
+                if (statsManagerObject != null)
                 {
-                    StatsManagerScript.SetHighScoreTime();
+                    statsManagerScript.SetHighScoreTime();
                 }
 
                 if (currentScene.name != "sce_Level_6")
@@ -88,9 +88,9 @@ public class GameManager : MonoBehaviour
         else if (checkpointsRemaining == 0 && currentScene.name != "sce_Main_Menu" &&
         !Application.CanStreamedLevelBeLoaded(currentScene.buildIndex + 1))
         {
-            if (StatsManagerObject != null)
+            if (statsManagerObject != null)
             {
-                StatsManagerScript.SetHighScoreTime();
+                statsManagerScript.SetHighScoreTime();
             }
             SceneManager.LoadScene(0);
         }

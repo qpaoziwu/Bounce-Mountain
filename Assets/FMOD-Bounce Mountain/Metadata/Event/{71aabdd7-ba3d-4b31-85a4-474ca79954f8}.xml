@@ -5,7 +5,7 @@
             <value>Body Impact</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="folder">
             <destination>{39b7d867-dc65-47c0-baf2-96574d3a248a}</destination>
@@ -191,7 +191,6 @@
     <object class="MixerBusEffectChain" id="{690240f3-202f-4d5f-88fc-7364edf88a13}">
         <relationship name="effects">
             <destination>{f7f1042d-f93a-4707-ba1e-1f656087c49b}</destination>
-            <destination>{df70490f-554d-447f-9d8a-9c53275ab8e3}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{bec24c67-e668-48c7-9f28-fa49701b25fc}"/>
@@ -297,7 +296,6 @@
     </object>
     <object class="MixerBusPanner" id="{89513ad9-c83c-490c-aa96-30f226da0488}"/>
     <object class="MixerBusFader" id="{f7f1042d-f93a-4707-ba1e-1f656087c49b}"/>
-    <object class="SpatialiserEffect" id="{df70490f-554d-447f-9d8a-9c53275ab8e3}"/>
     <object class="AutomationCurve" id="{ef6a0648-0d7c-4417-a82e-09f5f49c1b03}">
         <relationship name="parameter">
             <destination>{1a72bd29-2bfb-4b75-bce0-49f96cc21cfe}</destination>
